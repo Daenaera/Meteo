@@ -1,0 +1,61 @@
+body {
+    margin: 10px;
+    padding:0;
+	box-sizing: border-box ;
+    color: #6C63FF;
+	
+}
+
+.container{
+    height: auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align:center;
+	
+}
+.card{
+    height: auto;
+    width:350px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    overflow:hidden ;
+	
+}
+
+
+.card div .inputs{
+    display: flex;
+        align-items: center ;
+            flex-direction: column;
+                justify-content: space-between;
+}
+.card div .inputs input{
+    width:80%;
+    height: 40px;
+    margin: 5px 0px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+	background-color: transparent;
+}
+
+.card div .inputs input[type=button]{
+    box-shadow: 1px 1px 5px black;
+        border-radius: 20px;
+            background: transparent ;
+}
+
+.card div .inputs input[type=button]:active{
+    box-shadow: inset 1px 1px 5px black;
+    }
+
+.card div .output{
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
